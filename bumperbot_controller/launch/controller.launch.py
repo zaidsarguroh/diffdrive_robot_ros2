@@ -9,7 +9,7 @@ def generate_launch_description():
         arguments=[
             "joint_state_broadcaster",
             "--controller-manager",
-            "/controller-manager"
+            "/controller_manager"
         ]
     )
     
@@ -19,7 +19,7 @@ def generate_launch_description():
         arguments=[
             "simple_velocity_controller",
             "--controller-manager",
-            "/controller-manager"
+            "/controller_manager"
         ]
     )
 
