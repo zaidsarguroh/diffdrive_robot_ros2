@@ -7,11 +7,13 @@
   <maintainer email="zedsargruroh@gmail.com">zaid</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>rclpy</depend>
-  <depend>std_msgs</depend>
-  <depend>rcl_interfaces</depend>
-  <depend>turtlesim</depend>
-  <depend>math</depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>math</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
