@@ -1,5 +1,7 @@
 import rclpy
 from rclpy.node import Node
+from rcl_interfaces.msg import SetParametersResult
+from rclpy.parameter import Parameter
 from geometry_msgs.msg import PoseStamped
 from nav_msgs.msg import Odometry
 from nav_msgs.msg import Path
@@ -10,7 +12,14 @@ class TrajectoryPlotter(Node):
     def __init__(self):
         super().__init__("trajectory_plotter")
 
-        self.odom_sub_ = self.create_subscription(Odometry, "bumperbot_controller/odom", self.odomCallback, 10)
+        self.declare_parameter("odom_topic", "bumperbot_controller/odom")
+
+        self.odom_topic = self.get_parameter('odom_topic').get_parameter_value().string_value
+
+        self.odom_sub_ = self.create_subscription(Odometry, self.odom_topic, self.odomCallback, 10)
+        self.get_logger().info("Trajectory plotter started. Subscribed to: %s" %(self.odom_topic))
+
+        
         self.path_pub_ = self.create_publisher(Path, "bumperbot_controller/trajectory", 10)
 
         self.path_msg_ = Path()
