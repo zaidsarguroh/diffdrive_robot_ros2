@@ -11,9 +11,13 @@
 
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>controller_manager</exec_depend>
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf_transformations</exec_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
 
   <buildtool_depend>ament_cmake_python</buildtool_depend>
 
