@@ -17,7 +17,7 @@ class TrajectoryPlotter(Node):
         self.odom_topic = self.get_parameter('odom_topic').get_parameter_value().string_value
 
         self.odom_sub_ = self.create_subscription(Odometry, self.odom_topic, self.odomCallback, 10)
-        self.get_logger().info("Trajectory plotter started. Subscribed to: %s" %(self.odom_topic))
+        self.get_logger().info("Trajectory plotter started. Subscribed to: %s" %self.odom_topic)
 
         
         self.path_pub_ = self.create_publisher(Path, "bumperbot_controller/trajectory", 10)
