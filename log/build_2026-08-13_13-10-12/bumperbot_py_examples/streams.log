@@ -1,0 +1,27 @@
+[1.653s] Invoking command in '/home/zaid/bumperbot_ws/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/zaid/bumperbot_ws/src/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zaid/bumperbot_ws/src/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zaid/bumperbot_ws/src/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zaid/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/zaid/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/zaid/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/zaid/bumperbot_ws/src/build/bumperbot_py_examples/install.log --install-scripts $base/lib/bumperbot_py_examples --single-version-externally-managed install_data
+[2.059s] running egg_info
+[2.087s] writing ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[2.088s] writing dependency_links to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[2.088s] writing entry points to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[2.088s] writing requirements to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[2.088s] writing top-level names to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[2.144s] reading manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.145s] writing manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.145s] running build
+[2.145s] running build_py
+[2.146s] running install
+[2.155s] running install_lib
+[2.184s] running install_data
+[2.184s] running install_egg_info
+[2.214s] removing '/home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[2.214s] Copying ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info
+[2.215s] running install_scripts
+[2.403s] Installing simple_parameter script to /home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.403s] Installing simple_publisher script to /home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.404s] Installing simple_service_client script to /home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.404s] Installing simple_service_server script to /home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.404s] Installing simple_subscriber script to /home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.404s] Installing simple_tf_kinematics script to /home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.404s] Installing simple_turtlesim_kinematics script to /home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.404s] writing list of installed files to '/home/zaid/bumperbot_ws/src/build/bumperbot_py_examples/install.log'
+[2.443s] Invoked command in '/home/zaid/bumperbot_ws/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/zaid/bumperbot_ws/src/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zaid/bumperbot_ws/src/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zaid/bumperbot_ws/src/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zaid/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zaid/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/zaid/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/zaid/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/zaid/bumperbot_ws/src/build/bumperbot_py_examples/install.log --install-scripts $base/lib/bumperbot_py_examples --single-version-externally-managed install_data

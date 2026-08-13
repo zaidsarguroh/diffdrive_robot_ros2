@@ -1,0 +1,37 @@
+[1.431s] Invoking command in '/home/zaid/bumperbot_ws/src/bumperbot_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zaid/bumperbot_ws/src/build/bumperbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_utils build --build-base /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build install --record /home/zaid/bumperbot_ws/src/build/bumperbot_utils/install.log --install-scripts $base/lib/bumperbot_utils --single-version-externally-managed install_data
+[1.828s] running egg_info
+[1.829s] creating ../build/bumperbot_utils/bumperbot_utils.egg-info
+[1.856s] writing ../build/bumperbot_utils/bumperbot_utils.egg-info/PKG-INFO
+[1.856s] writing dependency_links to ../build/bumperbot_utils/bumperbot_utils.egg-info/dependency_links.txt
+[1.856s] writing entry points to ../build/bumperbot_utils/bumperbot_utils.egg-info/entry_points.txt
+[1.857s] writing requirements to ../build/bumperbot_utils/bumperbot_utils.egg-info/requires.txt
+[1.857s] writing top-level names to ../build/bumperbot_utils/bumperbot_utils.egg-info/top_level.txt
+[1.857s] writing manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[1.912s] reading manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[1.913s] writing manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[1.913s] running build
+[1.914s] running build_py
+[1.914s] creating /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build
+[1.914s] creating /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build/lib
+[1.914s] creating /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build/lib/bumperbot_utils
+[1.914s] copying bumperbot_utils/__init__.py -> /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build/lib/bumperbot_utils
+[1.914s] copying bumperbot_utils/trajectory_plotter.py -> /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build/lib/bumperbot_utils
+[1.914s] running install
+[1.924s] running install_lib
+[1.952s] creating /home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils
+[1.952s] copying /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build/lib/bumperbot_utils/__init__.py -> /home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils
+[1.952s] copying /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build/lib/bumperbot_utils/trajectory_plotter.py -> /home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils
+[1.953s] byte-compiling /home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py to __init__.cpython-312.pyc
+[1.953s] byte-compiling /home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/trajectory_plotter.py to trajectory_plotter.cpython-312.pyc
+[1.954s] running install_data
+[1.954s] creating /home/zaid/bumperbot_ws/src/install/bumperbot_utils/share/ament_index
+[1.954s] creating /home/zaid/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index
+[1.954s] creating /home/zaid/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index/packages
+[1.954s] copying resource/bumperbot_utils -> /home/zaid/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index/packages
+[1.954s] copying package.xml -> /home/zaid/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils
+[1.954s] running install_egg_info
+[1.984s] Copying ../build/bumperbot_utils/bumperbot_utils.egg-info to /home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info
+[1.985s] running install_scripts
+[2.195s] Installing trajectory_plotter script to /home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/bumperbot_utils
+[2.195s] writing list of installed files to '/home/zaid/bumperbot_ws/src/build/bumperbot_utils/install.log'
+[2.254s] Invoked command in '/home/zaid/bumperbot_ws/src/bumperbot_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zaid/bumperbot_ws/src/build/bumperbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zaid/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_utils build --build-base /home/zaid/bumperbot_ws/src/build/bumperbot_utils/build install --record /home/zaid/bumperbot_ws/src/build/bumperbot_utils/install.log --install-scripts $base/lib/bumperbot_utils --single-version-externally-managed install_data
